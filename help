@@ -1,0 +1,8 @@
+Anything that isn't prefixed with a : is automatically interpreted as you speaking to Mitsuku.
+Otherwise, we check your query for the various following commands:
+
+Available commands:
+    ':get_voices' : retrieves all installed tts voices
+    ':set_voice=voice_id, rate, volume' : manually sets voice to the specifications, any of these can be left empty
+                                          if you only want to change a single setting.
+    ':help' : displays this message
